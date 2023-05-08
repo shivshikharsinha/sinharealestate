@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sinha Real Estate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sinha Real Estate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Privacy</a></li>
+              <li><a class="dropdown-item" href="#">Terms of Use</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Documentation</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/unspalsh1.jpg" class="d-block w-100" alt="...">
+        <!-- https://unsplash.com/photos/w3eFhqXjkZE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+      </div>
+      <div class="carousel-item">
+        <img src="./images/unspalsh2.jpg" class="d-block w-100" alt="...">
+        <!-- https://unsplash.com/photos/tHkJAMcO3QE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+      </div>
+      <div class="carousel-item">
+        <img src="./images/unspalsh3.jpg" class="d-block w-100" alt="...">
+        <!-- https://unsplash.com/photos/_TPTXZd9mOo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid">
+    <!-- tagline -->
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-6 text-center mt-4 mb-5"> "Discover Your Dream Home with Sinha Real Estate - <br>Your Trusted Real Estate Partner"
+        </h3>
+      </div>
+    </div>
+    <!-- features -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-3">
+        <h1> <i class="bi bi-bank2 text-success"></i></h1>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus impedit minus?</p>
+      </div>
+      <div class="col-md-3 text-center mt-3">
+        <h1><i class="bi bi-house-door text-primary"></i></h1>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus impedit minus?</p>
+      </div>
+      <div class="col-md-3 text-center mt-3">
+        <h1><i class="bi bi-globe-central-south-asia text-danger"></i> </h1>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus impedit minus?</p>
+      </div>
+    </div>
+    <!-- LINE -->
+    <hr>
+
+    <!-- growth -->
+    <div class="row justify-content-evenly pt-3 pb-5">
+      <div class="col-md-5 pt-3">
+        <img class="img-fluid" src="./images/target.jpg" alt="">
+        <!-- <a href="https://www.freepik.com/free-psd/3d-male-cartoon-character-sitting-dart-that-hits-target_22821870.htm#query=target&position=5&from_view=search&track=sph">Image by jcomp</a> on Freepik -->
+      </div>
+      <div class="col-md-5 pt-3">
+        <h5 class="mt-3">Success</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 90%"></div>
+        </div>
+        <h5 class="mt-3">Progress</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 70%"></div>
+        </div>
+        <h5 class="mt-3">Development</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 60%"></div>
+        </div>
+        <h5 class="mt-3">Satisfaction</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-primaryr" style="width: 80%"></div>
+        </div>
+        <h5 class="mt-3">Danger</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 10%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="row justify-content-evenly pt-2 pb-3" style="background-color: #f1f1f1;">
+      <div class="col-md-5 mt-5">
+        <h3 class="mb-4">Contact Form</h3>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 mt-5">
+        <h3 class="mb-4">Address</h3>
+        <p>1180, Kimberley Street, <br> Washington-8766 USA <br>  <i class="bi bi-telephone-fill text-primary"></i> 9827637472 </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.3111418599!2d-73.969231!3d40.7590615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1675152314654!5m2!1sen!2sin" height = "250px"; style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <!-- containerend -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
